@@ -1,0 +1,151 @@
+*{
+    background-color:#faebd7;
+    margin: 0;
+}
+.nb{    
+    display: flex;
+    justify-content: space-between;
+
+}
+.center{
+    display: flex;
+    margin-left: 400px;
+    height: 40px;
+    width: 40px;
+  
+}
+.cent{
+    margin-left: 10px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    color: rgb(163, 44, 8);
+}
+.right {
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+}
+.acc {
+    margin-left: 8px;
+}
+
+ul {  
+    list-style-type: none;  
+    margin: 0;
+    padding: 0;
+  }  
+
+li{
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 20px;
+}
+li a{
+    text-decoration: none;
+}
+
+.left {
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+}
+.title{
+    margin-top: 50px;
+    font-size: 60px;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.p1{
+    text-align: center;
+    font-size: 25px;
+}
+.btn{
+    background-color: rgb(28, 254, 80);
+    border-radius: 10px;
+    margin:10px;
+    padding:8px 30px;
+
+    
+}
+.pb{
+    display: flex;
+    height:50px;
+    width: 300px;
+    border-radius: 15px;
+    border: 2px solid black;
+    margin: 20px auto;
+    justify-content: center;
+    align-items: center;
+}
+form {
+    text-align: center; 
+    
+}
+.size{
+    font-size: 20px;
+}
+.flex{
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+
+}
+.strong{
+    background-color: aliceblue;
+    font-size: 20px;
+}
+.s {
+    background-color: rgb(236, 246, 255);
+    flex: 1;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 40px;
+
+  }
+.block{
+background-color: rgb(245, 227, 203);
+}
+.que{
+    margin-top:40px;
+    background-color: rgb(245, 227, 203);
+    text-align: center;
+    font-weight: 800;
+    font-size: 40px;
+}
+.svg{
+    background-color: aliceblue;
+}
+.grid{
+    box-sizing: border-box;
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+    padding:40px 100px;
+    justify-items: center;
+    background-color: rgb(148, 36, 228);
+
+}
+.item{
+    background-color: rgb(148, 36, 228);
+    padding: 30px;
+    font-size: 20px;
+
+}
+.svg1{
+    background-color: rgb(148, 36, 228);
+    margin-left: 50px;
+    height: 60px;
+
+    
+}
+.footer{
+text-align: center;
+}

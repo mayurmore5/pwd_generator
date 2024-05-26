@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <div class="nb">
+                <div class="right">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" id="account"><path d="M24 4C12.95 4 4 12.95 4 24s8.95 20 20 20 20-8.95 20-20S35.05 4 24 4zm0 6c3.31 0 6 2.69 6 6 0 3.32-2.69 6-6 6s-6-2.68-6-6c0-3.31 2.69-6 6-6zm0 28.4c-5.01 0-9.41-2.56-12-6.44.05-3.97 8.01-6.16 12-6.16s11.94 2.19 12 6.16c-2.59 3.88-6.99 6.44-12 6.44z"></path><path fill="none" d="M0 0h48v48H0z"></path></svg>
+                    <span class="acc">My account</span> 
+                    <img src="download.jpg" alt="Logo" class="center"></img>
+                    <span class="cent">GeneX</span>
+                </div>
+                <div class="left">
+                    <ul>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">Resources</a></li>
+                        <li><a href="#">Company</a></li>
+                        <li><a href="#">Partners</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </nav>
+    </header>
+    <h1 class="title">Random Password Generator</h1>
+    <p class="p1">Create strong and secure passwords to keep your account safe online.</p>
+    <form id="pa">
+        <label class="size">
+            Number of charcters:
+            <input type="number" id="tn" value="10">
+        </label>
+        <br>
+        <label class="size">
+            Include uppercase Letters:
+            <input type="checkbox" id="upc">
+        </label>
+        <br>
+        <label class="size">
+            Include lowercase Letters:
+            <input type="checkbox" id="lcc">
+        </label>
+        <br>
+        <label class="size">
+            Include Numbers:
+            <input type="checkbox" id="mun">
+        </label>
+        <br>
+        <label class="size">
+            Include Special Characters:
+            <input type="checkbox" id="spc">
+        </label>
+        <br>
+        <button class="btn">Generate Password</button>
+        <button id="copy-button" class="btn">Copy to Clipboard</button>
+        <div class="pb">
+            <p id="password-output"></p>
+        </div>
+        <p id="message"></p>
+    </form>
+    <div class="block">
+        <p class="que">What makes a password strong?</p>
+        <div class="flex">
+            <div class="s">
+                <img src="https://static3.avast.com/10003488/web/i/v3/components/icons/feature-icons/80x80/password-checkmark--key-tick.svg" alt="SVG Image" class="svg"><br>   
+                <strong class="strong">Long</strong><br>
+        
+                The longer a password, the more secure it is. A strong password should be at least 10 characters long.
+            </div>
+            <div class="s">
+                <img src="https://static3.avast.com/10003488/web/i/v3/components/icons/feature-icons/80x80/https-encryption--lock.svg" alt="SVG Image" class="svg"><br>   
+                <strong class="strong">Complex</strong><br>
+                Strong passwords use a combination of letters, numbers, cases, and symbols to form an unpredictable string of characters that doesn't resemble words or names.
+            </div>
+            <div class="s">
+                <img src="https://static3.avast.com/10003488/web/i/v3/components/icons/feature-icons/80x80/sensitive-data-shield--document-fingerprint.svg" alt="SVG Image" class="svg"><br>   
+                <strong class="strong">Unique</strong><br>
+                A strong password should be unique to each account to reduce vulnerability in the event of a hack.
+            </div>
+        </div>
+    </div>
+    <div class="grid">
+        <div class="item">
+            <img src="https://delinea.com/hubfs/Delinea/icons/delinea-icon-gears-2-teal.svg" alt="SVG Image" class="svg1"><br>   
+            Make sure passwords and accounts are set up correctly</div>
+        <div class="item">
+            <img src="https://delinea.com/hubfs/Delinea/icons/delinea-icon-password-rotation-teal.svg" alt="SVG Image" class="svg1"><br>   
+            Change passwords regularly and automatically</div>
+        <div class="item">
+            <img src="https://delinea.com/hubfs/Delinea/icons/delinea-icon-audit-everything-teal-2.svg" alt="SVG Image" class="svg1"><br>   
+            Monitor privileged users access and activity</div>
+        <div class="item">
+            <img src="https://delinea.com/hubfs/Delinea/icons/delinea-icon-privilege-elevation-teal.svg" alt="SVG Image" class="svg1"><br>   
+            Control and manage elevating privileged access</div>
+        <div class="item">
+            <img src="https://delinea.com/hubfs/Delinea/icons/delinea-icon-offboard-teal.svg" alt="SVG Image" class="svg1"><br>   
+            Delete passwords and accounts when no longer needed</div>
+    </div>
+    <div class="footer">&copy; 2024 Copyright GeneX</div>
+    <script src="pass.js"></script>
+</body>
+</html>
